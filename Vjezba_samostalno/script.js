@@ -1,6 +1,8 @@
-const inputEl = document.getElementById("#mjesto-unosa");
-const buttonSlanje = document.getElementById("#tipka-slanje");
-const divBrisanje = document.getElementById("#tipka-brisanje-div");
+const inputEl = document.getElementById("mjesto-unosa");
+const buttonSlanje = document.getElementById("tipka-slanje");
+const divBrisanje = document.getElementById("tipka-brisanje-div");
+const novaListaPodataka = document.getElementById("neki-div-za-prikaz");
+
 
 
 let podaciOdKorisnika = "";
@@ -10,12 +12,16 @@ inputEl.addEventListener("input", function(event){
 });
 
 buttonSlanje.addEventListener("click", function(event){
-  const novaLista = document.create("lista");
-  const pElement = document.create("p");
-  const buttonZaBrisanje = document.create("button");
+  const novaLista = document.createElement("lista");
 
-pElement.innerHTML = `podatci od korisnika ${Podatak korisnika}`;
+  const pElement = document.createElement("p");
+  const buttonZaBrisanje = document.createElement("button");
+
+
+pElement.innerHTML = `Podatci od korisnika: ${podaciOdKorisnika}`;
 buttonZaBrisanje.innerHTML = "Obrisi";
+
+
 
 buttonZaBrisanje.classList.add("buttonZaBrisanje");
 
@@ -25,6 +31,8 @@ novaLista.appendChild(buttonZaBrisanje);
 
 
 novaListaPodataka.appendChild(novaLista);
+
+
 
 const buttonZaBrisanje = docment.querySelector(".button");
 
@@ -39,6 +47,12 @@ buttonZaBrisanje.addEventListener("click", function (event){
 
 
 });
+
+
+
+
+
+
 
 
 
