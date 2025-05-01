@@ -1,0 +1,26 @@
+html{
+  text-align: center;
+  background-image: ;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.moja-slika {
+
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+nav,h3{
+  color: purple;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+body{
+  background-image: url('pink.jpeg');
+}

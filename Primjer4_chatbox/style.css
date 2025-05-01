@@ -1,0 +1,60 @@
+header {
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+header nav {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 3px;
+  border-radius: 5px;
+}
+
+header nav button:first-child {
+  margin-right: 15px;
+}
+
+main {
+  text-align: center;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#welcome {
+  margin-top: 20px;
+}
+
+.chat-box {
+  margin-top: 20px;
+}
+
+#message {
+  width: 50%;
+  height: 35%;
+  margin-top: 20px;
+}
+
+.btn-style {
+  margin-top: 15px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}

@@ -1,0 +1,51 @@
+html {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  color: aqua;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+p {
+  font-style: italic;
+  font-weight: 100;
+}
+
+#pro15 {
+  border-radius: 20%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#mob {
+  color: red;
+}
+
+#ekran {
+  list-style: none;
+  justify-items: center;
+}
+
+.delete {
+  border: 7px double pink;
+  border-radius: 20px;
+
+  
+
+}
+
+.delete:hover {
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
+  color: rebeccapurple;
+}
+
